@@ -1,0 +1,1 @@
+bug adalah bagian dari proses pengembangan perangkat lunak. Dalam kode ini, kita akan
