@@ -130,5 +130,3 @@ else:
     print("angka tidak ditemukan")
 
 print("  ")
-
-print("How to make a list")
