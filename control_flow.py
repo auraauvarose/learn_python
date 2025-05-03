@@ -64,7 +64,7 @@ else:
 # Perulangan adalah cara untuk mengeksekusi blok kode yang sama berulang kali. Anda dapat menggunakan perulangan untuk mengulangi blok kode dengan jumlah yang ditentukan atau sampai kondisi tertentu terpenuhi. 
 
 # For 
-# Perulangan for digunakan untuk mengulangi blok kode dengan jumlah yang ditentukan. Anda dapat menggunakan perulangan for untuk mengulangi elemen dalam list, tuple, string, atau range.
+# Perulangan for atau  definite iteration? digunakan untuk mengulangi blok kode dengan jumlah yang ditentukan. Anda dapat menggunakan perulangan for untuk mengulangi elemen dalam list, tuple, string, atau range.
 
 var_list = [1, 2, 3, 4, 5] # list
 for i in var_list:
@@ -128,12 +128,37 @@ for num in numbers:
         break
 else:
     print("angka tidak ditemukan")
+    
 
 print("  ")
+
 
 # Penanganan Kesalahan (Error Handling and Exception Handling)
 # Saat Anda membuat program, sering kali menemukan setidaknya dua jenis kesalahan berdasarkan kejadiannya.
 
 # Kesalahan sintaks (syntax errors) atau sering disebut juga sebagai kesalahan penguraian (parsing errors). 
 # Pengecualian (exceptions) atau sering disebut juga sebagai kesalahan saat beroperasi (runtime errors). 
-# Mari kita bahas satu per satu jenis kesalahan tersebut.
+
+# Penanganan Pengecualian
+z = 0
+try:
+    print(1/z) # ini akan menyebabkan kesalahan pembagian dengan nol
+except ZeroDivisionError:
+    print("Anda tidak dapat membagi dengan nol.")
+
+# Mari mulai dengan kondisi yang tidak menampilkan error.
+var_dict = {"rata_rata": "1.0"}
+
+try:
+    print(f"rata-rata adalah {var_dict['rata_rata']}")
+except KeyError:
+    print("Key tidak ditemukan.")
+except TypeError:
+    print("Anda tidak bisa membagi nilai dengan tipe data string")
+else:
+    print("Kode ini dieksekusi jika tidak ada exception.")
+finally:
+    print("Kode ini dieksekusi terlepas dari ada atau tidaknya exception.")
+
+print("   ")
+
