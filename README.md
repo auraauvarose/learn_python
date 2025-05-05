@@ -10,9 +10,8 @@
 
 ---
 
-<details>
-  <summary>📑 **Daftar Isi**</summary>
-  <br/>
+
+## 📑Daftar Isi
 
   1. 📘 **1. Memulai Pemrograman dengan Python**  
      - 📄 [pengenalan.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/pengenalan.py)  
@@ -37,7 +36,6 @@
   6. 📘 **README**  
      - 📄 [README.md](./README.md)  
 
-</details>
 ---
 
 ## 🎯 Roadmap & Goals
