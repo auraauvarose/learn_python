@@ -58,6 +58,7 @@
 Bantu aku belajar lebih baik dengan:
 Issue: laporkan typo atau minta penjelasan lebih dalam.
 Pull Request: tambahkan catatan, perbaiki struktur, atau bagikan latihan baru.
+Semoga ditahun ini juga menjadi tahun versi terbaik aku untuk belajar coding
 
 ## 📬 Hubungi Aku
-Email: <auraauvaroseendica@gmail.com
+Email: auraauvaroseendica@gmail.com
