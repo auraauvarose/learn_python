@@ -10,17 +10,34 @@
 
 ---
 
-## 🚀 Daftar Isi
+<details>
+  <summary>📑 **Daftar Isi**</summary>
+  <br/>
 
-1. [Memulai Pemrograman dengan Python](./1.%20Memulai%20Pemrograman%20dengan%20Python)  
-2. [Control Flow & Looping](./2.%20Control%20Flow%20%26%20Looping)  
-3. [Function & Modularisasi](./3.%20Function%20%26%20Modularisasi)  
-4. [Tipe Data Lanjutan](./4.%20Tipe%20Data%20Lanjutan)  
-5. [Exception Handling](./5.%20Exception%20Handling)  
-6. [File I/O](./6.%20File%20I-O)  
-7. [Proyek Mini dan Challenge](./7.%20Proyek%20Mini%20dan%20Challenge)  
-8. [Roadmap & Goals](#-roadmap--goals)  
+  1. 📘 **1. Memulai Pemrograman dengan Python**  
+     - 📄 [pengenalan.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/pengenalan.py)  
+     - 📄 [berinteraksi_dengan_data.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/berinteraksi_dengan_data.py)  
+     - 📄 [ekspresi.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/ekspresi.py)  
+     - 📄 [aksi_sekuensial.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/aksi_sekuensial.py)  
+     - 📄 [control_flow.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/control_flow.py)  
+     - 📄 [array_dan_pemrosesannya.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/array_dan_pemrosesannya.py)  
 
+  2. 📊 **2. Belajar Dasar Visualisasi Data**  
+     - 📂 [Folder “Belajar Dasar Visualisasi Data”](./2.%20Belajar%20Dasar%20Visualisasi%20Data)  
+
+  3. 🤖 **3. Belajar Machine Learning untuk Pemula**  
+     - 📂 [Folder “Belajar Machine Learning untuk Pemula”](./3.%20Belajar%20Machine%20Learning%20untuk%20Pemula)  
+
+  4. 💰 **4. Financial Literacy 101**  
+     - 📂 [Folder “Financial Literacy 101”](./4.%20Financial%20Literacy%20101)  
+
+  5. ⚙️ **main.py**  
+     - 📄 [main.py](./main.py)  
+
+  6. 📘 **README**  
+     - 📄 [README.md](./README.md)  
+
+</details>
 ---
 
 ## 🎯 Roadmap & Goals
