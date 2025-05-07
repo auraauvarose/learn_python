@@ -1,6 +1,9 @@
-</div>
-# 🐍 Learn-Python
+</div align="center">
 
+# 🚀 Space Shooter Game (Python Edition)
+
+# 🐍 Learn-Python
+ 
 > “From zero to hero” dalam pemrograman Python — dokumentasi perjalanan, catatan, dan proyek kecil-ku di Dicoding!
 
 ---
