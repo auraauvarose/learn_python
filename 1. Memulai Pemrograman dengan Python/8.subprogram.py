@@ -52,6 +52,24 @@ mencari_luas = lambda panjang, lebar: panjang * lebar
 print(mencari_luas(5, 10))
 
 
+# Argumen dan Parameter
+# Definisi fungsi: x dan y adalah parameter
+
+angka1 = 80
+angka2 = 15
+
+def bandingkan(x, y):
+    if x < y:
+        return x
+    else:
+        return y
+
+# Pemanggilan fungsi: 10 dan 20 adalah argumen
+hasil1 = bandingkan(10, 20)     # argumen = 10, 20
+hasil2 = bandingkan(angka1, angka2)  # argumen = nilai variabel angka1 dan angka2
+
+
+
 # Menulis Modul pada Python
 # Pembahasan terakhir terkait fungsi adalah kita akan mempelajari cara memanggil sebuah fungsi dari berkas lain. Masih ingat dengan modul? Ia adalah sebuah file berisi kode Python dan di dalamnya terdapat fungsi, kelas, dan sebagainya.
 
@@ -63,3 +81,11 @@ print(persegi_panjang)
 
 # contoh lain
 print(subprogram_modul.nama) # memanggil variabel dari modul lain
+
+# Prosedur 
+# Dalam KBBI, kata prosedur memiliki makna sebagai tahap kegiatan untuk menyelesaikan suatu aktivitas. Hal ini sama seperti prosedur sebagai subprogram yang merupakan pengelompokan instruksi-instruksi yang sering dipakai dalam program. 
+
+def greeting(name):
+    print("Halo " + name + ", Selamat Datang!")
+
+greeting("Dicoding Indonesia") # memanggil prosedur greeting dengan parameter Dicoding Indonesia
