@@ -1,5 +1,5 @@
-<div align="center">
-# 🚀 Space Shooter Game (Python Edition)
+<div align="center" font-size="20px">
+🚀 (Python Edition)
 </div>
 
 # 🐍 Learn-Python
