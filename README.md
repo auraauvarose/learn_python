@@ -1,6 +1,6 @@
-</div align="center">
+<div align="center">
 # 🚀 Space Shooter Game (Python Edition)
-<div>
+</div>
 
 # 🐍 Learn-Python
  
