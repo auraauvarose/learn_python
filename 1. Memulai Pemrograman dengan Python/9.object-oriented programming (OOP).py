@@ -32,6 +32,7 @@ print(mobil_1.warna) # output: merah ke biru, nama objek dan atributnya
 # Atribut
 # Dalam Python, ada dua jenis atribut kelas yang dapat dibagi, yaitu atribut kelas dan atribut objek atau instance. Atribut kelas adalah jenis atribut yang secara otomatis terdefinisi dan menjadi bawaan kelas ketika instance dibuat berdasarkan kelas tersebut. Anda dapat menganggapnya sebagai nilai default atau bawaan dari kelas. Jika Anda membuat beberapa objek berdasarkan kelas yang memiliki jenis atribut ini, setiap objek akan memiliki atribut yang sama dengan nilai yang sama. 
 
+# atribut objek atau instance
 mobil_1 = Mobil()
 print(mobil_1.warna) # output: merah
 mobil_2 = Mobil() 
@@ -41,3 +42,23 @@ Mobil.warna = "hitam" # mengubah atribut warna dari class Mobil
 
 print(mobil_1.warna) # output: hitam
 print(mobil_2.warna) # output: hitam
+
+# Class Constructor
+class Warna:
+    def _init_ (self):
+        self.warna = "hijau"
+
+
+warna_1 = Warna()
+warna_2 = Warna()
+
+print(warna_1.warna) # output: hijau
+print(warna_2.warna) # output: hijau
+
+warna_1.warna = "biru"
+
+warna_1 = Warna() # membuat objek baru
+warna_2 = Warna() # membuat objek baru
+
+print(warna_1.warna) # output: biru
+print(warna_2.warna) # output: hijau
