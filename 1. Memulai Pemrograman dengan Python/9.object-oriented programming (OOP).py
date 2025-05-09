@@ -28,6 +28,7 @@ mobil_1 = Mobil() # objek dari class Mobil
 mobil_1.warna = "biru" # mengubah atribut warna dari objek mobil_1
 print(mobil_1.warna) # output: merah ke biru, nama objek dan atributnya
 
+print("  ")
 
 # Atribut
 # Dalam Python, ada dua jenis atribut kelas yang dapat dibagi, yaitu atribut kelas dan atribut objek atau instance. Atribut kelas adalah jenis atribut yang secara otomatis terdefinisi dan menjadi bawaan kelas ketika instance dibuat berdasarkan kelas tersebut. Anda dapat menganggapnya sebagai nilai default atau bawaan dari kelas. Jika Anda membuat beberapa objek berdasarkan kelas yang memiliki jenis atribut ini, setiap objek akan memiliki atribut yang sama dengan nilai yang sama. 
@@ -45,20 +46,38 @@ print(mobil_2.warna) # output: hitam
 
 # Class Constructor
 class Warna:
-    def _init_ (self):
-        self.warna = "hijau"
+    def __init__(self):
+        self.color = "hijau"
 
 
-warna_1 = Warna()
-warna_2 = Warna()
+color_1 = Warna()
+color_2 = Warna()
 
-print(warna_1.warna) # output: hijau
-print(warna_2.warna) # output: hijau
+print(color_1.color) # output: hijau
+print(color_2.color) # output: hijau
 
-warna_1.warna = "biru"
+color_1.color = "biru"
 
-warna_1 = Warna() # membuat objek baru
-warna_2 = Warna() # membuat objek baru
+color_1 = Warna() # membuat objek baru
+color_2 = Warna() # membuat objek baru
 
-print(warna_1.warna) # output: biru
-print(warna_2.warna) # output: hijau
+print(color_1.color) # output: biru
+print(color_2.color) # output: hijau
+
+
+print("  ")
+
+# Constructor adalah method khusus yang dipanggil ketika kita membuat objek dari class. Constructor ini digunakan untuk menginisialisasi atribut-atribut dari objek tersebut. Dalam Python, constructor didefinisikan dengan nama method __init__ (double underscore) dan diikuti dengan parameter self yang merujuk pada objek itu sendiri.
+
+# contoh lain
+
+class Sepeda:
+    def __init__(self, warna, kecepatan, merek):
+        self.warna = warna
+        self.kecepatan = kecepatan
+        self.merek = merek
+
+sepeda_1 = Sepeda("Biru", 20, "Polygon")
+print(sepeda_1.warna) # output: Biru
+print(sepeda_1.kecepatan) # output: 20
+print(sepeda_1.merek) # output: Polygon
