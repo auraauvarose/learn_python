@@ -217,3 +217,103 @@ mobil_sport_1 = Mobilsport("Merah", "Ferrari", 200)
 print(mobil_sport_1.kecepatan) # output: 200
 mobil_sport_1.turbo() # Menambah kecepatan dengan turbo
 print(mobil_sport_1.kecepatan) # output: 250
+
+
+"""
+Override
+Selanjutnya, seperti yang dijelaskan di awal, ketika kita membuat metode baru di kelas turunan (kelas baru) dengan nama yang sama seperti metode di kelas induk, itu akan menyebabkan metode baru menimpa (override) metode dari kelas induk.
+
+"""
+
+
+class Mobil:
+    def __init__(self, warna, merek, kecepatan):
+        self.warna = warna
+        self.merek = merek
+        self.kecepatan = kecepatan
+    
+    def tambah_kecepatan(self): # tambah_kecepatan
+        self.kecepatan += 10
+
+class MobilSport(Mobil):
+    def turbo(self):
+        self.kecepatan += 50
+    
+    def tambah_kecepatan(self): # tambah_kecepatan
+        self.kecepatan += 20
+
+# Kelas Mobil Sport
+mobil_sport_1 = MobilSport("Hitam", "DicodingSportCar", 160)
+print(mobil_sport_1.kecepatan)
+mobil_sport_1.tambah_kecepatan()     # Memanggil metode baru tambah kecepatan()
+print(mobil_sport_1.kecepatan)
+
+
+
+"""
+Super
+Lantas, bagaimana cara untuk kita ingin menggunakan metode atau atribut dari kelas induk, tetapi tidak ingin menuliskan ulang semua kode? Ini adalah tujuan dari adanya super dalam konsep OOP. Nama super sebenarnya merujuk pada kelas induk yang disebut juga sebagai super class. Kita bisa memanfaatkan konsep ini untuk menghindari kode berulang dan memanfaatkan fungsi yang sudah ada pada kelas induk (super class).
+
+"""
+
+class Mobil:
+    def __init__(self, warna, merek, kecepatan):
+        self.warna = warna
+        self.merek = merek
+        self.kecepatan = kecepatan
+    
+    def tambah_kecepatan(self):
+        self.kecepatan += 10
+
+
+class MobilSport(Mobil):
+    def turbo(self):
+        self.kecepatan += 50
+    
+    def tambah_kecepatan(self):
+        super().tambah_kecepatan()
+        print("Kecepatan Anda meningkat! Hati-Hati!")
+
+# Kelas Mobil Sport
+mobil_sport_1 = MobilSport("Hitam", "DicodingSportCar", 160)
+mobil_sport_1.tambah_kecepatan()     # Memanggil metode baru tambah kecepatan()
+print(mobil_sport_1.kecepatan)
+
+"""
+TODO:
+1. Buatlah class bernama Animal dengan ketentuan:
+    - Memiliki properti:
+      - name: string
+      - age: int
+      - species: string
+    - Memiliki constructor untuk menginisialisasi properti:
+      - name
+      - age
+      - species
+2. Buatlah class bernama Cat dengan ketentuan:
+    - Merupakan turunan dari class Animal
+    - Memiliki method:
+      - bernama "deskripsi" yang mengembalikan nilai string berikut ini.
+        "{self.name} adalah kucing berjenis {self.species} yang sudah berumur {self.age} tahun"
+      - bernama "suara" yang akan mengembalikan nilai string "meow!"
+ 3. Buatlah instance dari kelas Cat bernama "myCat" dengan ketentuan:
+    - Atribut name bernilai: "Neko"
+    - Atribut age bernilai: 3
+    - Atribut species bernilai: "Persian".
+"""
+
+class Animal:
+    def __init__(self, name, age, species):
+        self.name = name
+        self.age = age
+        self.species = species
+
+class Cat(Animal):
+    def deskripsi(self):
+        return f"{self.name} adalah kucing berjenis {self.species} yang sudah berumur {self.age} tahun"
+    
+    def suara(self):
+        return "meow!"
+    
+myCat = Cat("Neko", 3, "Persian")
+print(myCat.deskripsi()) # output: Neko adalah kucing berjenis Persian yang sudah berumur 3 tahun
