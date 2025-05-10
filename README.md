@@ -19,12 +19,15 @@
 ## 📑Daftar Isi
 
   1. 📘 **1. Memulai Pemrograman dengan Python**  
-     - 📄 [pengenalan.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/pengenalan.py)  
-     - 📄 [berinteraksi_dengan_data.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/berinteraksi_dengan_data.py)  
-     - 📄 [ekspresi.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/ekspresi.py)  
-     - 📄 [aksi_sekuensial.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/aksi_sekuensial.py)  
-     - 📄 [control_flow.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/control_flow.py)  
-     - 📄 [array_dan_pemrosesannya.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/array_dan_pemrosesannya.py)  
+     - 📄 [pengenalan.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/1.pengenalan.py)  
+     - 📄 [berinteraksi_dengan_data.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/2.berinteraksi_dengan_data.py)  
+     - 📄 [ekspresi.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/3.ekspresi.py)  
+     - 📄 [aksi_sekuensial.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/4.aksi_sekuensial.py)  
+     - 📄 [control_flow.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/5.control_flow.py)  
+     - 📄 [array_dan_pemrosesannya.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/6.array_dan_pemrosesannya.py) 
+     - 📄 [matriks.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/7.matriks.py) 
+     - 📄 [subprogram.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/8.subprogram.py) 
+     - 📄 [object_oriented_programming.py](./1.%20Memulai%20Pemrograman%20dengan%20Python/9.object_oriented_programming_(OOP).py) 
 
   2. 📊 **2. Belajar Dasar Visualisasi Data**  
      - 📂 [Folder “Belajar Dasar Visualisasi Data”](./2.%20Belajar%20Dasar%20Visualisasi%20Data)  
