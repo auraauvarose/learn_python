@@ -182,3 +182,38 @@ class Mobil:
 Mobil.intro_mobil()
 mobil_1 = Mobil("DicodingCar")
 mobil_1.intro_mobil()
+
+
+
+"""
+Inheritance (Pewarisan)
+Sebagaimana ilustrasi awal, kita dapat membuat sebuah kelas baru dengan menggunakan kelas induk yang sudah ada. Konsep ini disebut dengan 'inheritance' atau dalam bahasa Indonesia artinya pewarisan.
+
+"""
+
+class Kendaraan:
+    def  __init__(self, warna, merek, kecepatan):
+        self.warna = warna
+        self.merek = merek
+        self.kecepatan = kecepatan
+
+    def kecepatan_mobil(self):
+        self.kecepatan += 10
+
+class Mobilsport(Kendaraan): # Mobilsport adalah turunan dari class Kendaraan
+    def turbo(self):
+        self.kecepatan += 50
+
+# Mobil dasar
+mobil_1 = Kendaraan("Biru", "Toyota", 150)
+print(mobil_1.kecepatan) # output: 150
+
+# Mobil menengah 
+mobil_1.kecepatan_mobil() # Memanggil method untuk menambah kecepatan
+print(mobil_1.kecepatan) # output: 160
+
+# mobil sport
+mobil_sport_1 = Mobilsport("Merah", "Ferrari", 200)
+print(mobil_sport_1.kecepatan) # output: 200
+mobil_sport_1.turbo() # Menambah kecepatan dengan turbo
+print(mobil_sport_1.kecepatan) # output: 250
