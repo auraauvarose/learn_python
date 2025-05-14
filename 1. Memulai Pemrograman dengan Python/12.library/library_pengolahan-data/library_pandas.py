@@ -7,4 +7,12 @@ Meskipun pandas sudah terinstal secara otomatis pada beberapa IDE dan versi Pyth
 
 """
 
-data = 
+data = {
+    'nama': ['Budi', 'Andi', 'Cindy', 'Dian'],
+    'umur': [20, 25, 30, 35],
+    'gaji': [5000000, 6000000, 7000000, 8000000]
+}
+
+df = pd.DataFrame(data)
+
+print(df)
