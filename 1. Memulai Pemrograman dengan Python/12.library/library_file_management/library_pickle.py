@@ -7,6 +7,7 @@ Jika Anda memiliki sebuah list yang ingin disimpan atau ditransmisikan tanpa kha
 # Kode berikut adalah contoh cara melakukan proses pickle pada sebuah object dictionary dan menyimpannya pada sebuah file.
 
 import pickle
+
 contoh_dictionary = {1:"6", 2:"2", 3:"f"}
 pickle_keluar = open("dict.pickle","wb")
 pickle.dump(contoh_dictionary, pickle_keluar)
