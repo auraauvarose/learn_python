@@ -20,3 +20,5 @@ contohDictionary = pickle.load(pickle_masuk)
 pickle_masuk.close()
  
 print(contohDictionary)
+
+
