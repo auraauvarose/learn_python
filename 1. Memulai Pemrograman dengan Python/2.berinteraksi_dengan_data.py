@@ -90,3 +90,6 @@ print("makanan" not in kalimat) # True
 
 
 
+
+
+
