@@ -14,7 +14,6 @@
 
 ---
 
-
 ## 📑Daftar Isi
 
   1. 📘 **1. Memulai Pemrograman dengan Python**  
