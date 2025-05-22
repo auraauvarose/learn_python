@@ -28,4 +28,5 @@ Python memiliki library Pandas yang sering digunakan untuk memuat dataset ke dal
 Kesimpulan
 Data loading adalah tahap krusial dalam machine learning karena memastikan dataset siap digunakan untuk analisis dan pelatihan model. Dengan Pandas, berbagai format file dapat dimuat dengan mudah, memungkinkan fleksibilitas dalam menangani data dari berbagai sumber.
 
+
 """
