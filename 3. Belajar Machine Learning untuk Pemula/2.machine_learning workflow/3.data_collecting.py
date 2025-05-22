@@ -51,6 +51,7 @@ Bayangkan Anda ingin membangun model machine learning untuk memprediksi harga ru
 
 3. Data survei pelanggan untuk mendapatkan preferensi dan kebutuhan dari calon pembeli rumah.
 
+
 Setelah data terkumpul, Anda membersihkannya, memastikan tidak ada data yang hilang, dan mulai menggunakannya untuk melatih model prediksi harga rumah. Dengan data yang tepat, model Anda akan mampu memberikan estimasi harga rumah yang akurat.
 
 """
