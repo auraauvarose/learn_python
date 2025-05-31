@@ -72,3 +72,11 @@ for column in kategoriie:
     test[column] = test[column].fillna(test[column].mode()[0])
     
 print(kategoriie)
+
+"""
+Menghapus Kolom dengan Banyak Nilai yang Hilang:jika ada kolom dengan terlalu banyak nilai yang hilang, kita bisa mempertimbangkan untuk menghapusnya (pada kasus ini kita mengambil batasan 75%). Untuk mengatasi kasus ini sangatlah mudah, pertama Anda perlu mengambil index atau nama kolom dari fitur yang memiliki missing value lebih dari batasan yang sudah ditentukan (Anda dapat lihat kode ketika memisahkan kolom di atas). Kemudian hal yang perlu dilakukan adalah menghapus kolom tersebut sesuai dengan nama fitur yang sudah ditentukan sebelumnya
+
+"""
+
+# Menghapus kolom dengan terlalu banyak nilai yang hilang
+df = test.drop(columns=over)
