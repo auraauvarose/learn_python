@@ -80,3 +80,4 @@ Menghapus Kolom dengan Banyak Nilai yang Hilang:jika ada kolom dengan terlalu ba
 
 # Menghapus kolom dengan terlalu banyak nilai yang hilang
 df = test.drop(columns=over)
+
