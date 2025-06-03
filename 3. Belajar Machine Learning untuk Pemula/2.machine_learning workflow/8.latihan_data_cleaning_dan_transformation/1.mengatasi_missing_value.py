@@ -81,3 +81,36 @@ Menghapus Kolom dengan Banyak Nilai yang Hilang:jika ada kolom dengan terlalu ba
 # Menghapus kolom dengan terlalu banyak nilai yang hilang
 df = test.drop(columns=over)
 
+print(df.head())
+print("/n")
+"""
+Jika Anda perhatikan kode di atas, ada sebuah perubahan nama DataFrame yang kita lakukan. Hal tersebut bertujuan supaya data asli tidak berubah dan dapat kita bandingkan sebelum dan sesudah proses mengisi missing value.
+
+Terakhir, lakukan pemeriksaan terhadap data yang sudah melewati tahapan verifikasi missing value dengan kode berikut.
+
+"""
+
+missing_values = df.isnull().sum()
+missing_values[missing_values > 0]
+
+print(missing_values)
+
+"""
+Mengatasi Outliers
+Seperti yang Anda ketahui bahwa outliers merupakan salah satu blocker dalam membangun model machine learning yang optimal. Hal ini bisa disebabkan oleh berbagai hal seperti kesalahan pengisian data, error yang terjadi ketika pengumpulan data, dan lain sebagainya. 
+
+Salah satu cara mengatasi outliers adalah dengan menggunakan metode IQR (Interquartile Range) adalah salah satu pendekatan yang efektif. IQR adalah rentang antara kuartil pertama (Q1) dan kuartil ketiga (Q3) dalam data. Nilai yang terletak di luar batas IQR dianggap sebagai outlier.
+
+Mari kita periksa terlebih dahulu apakah dataset yang digunakan memiliki outlier atau tidak menggunakan kode berikut.
+
+"""
+
+import pandas as pd 
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+for feature in numeric_features:
+    plt.figure(figsize=(10, 6))
+    sns.boxplot(x=df[feature])
+    plt.title(f'Box Plot of ifeature')
+    plt.show()
