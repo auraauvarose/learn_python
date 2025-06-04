@@ -109,8 +109,61 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+"""
 for feature in numeric_features:
     plt.figure(figsize=(10, 6))
     sns.boxplot(x=df[feature])
     plt.title(f'Box Plot of ifeature')
     plt.show()
+"""
+
+# Contoh sederhana untuk mengidentifikasi outliers menggunakan IQR
+Q1 = df[numeric_features].quantile(0.25)
+Q3 = df[numeric_features].quantile(0.75)
+IQR = Q3 - Q1
+
+# Filter dataframe untuk hanya menyimpan baris yang tidak mengandung outliers pada kolom numerik
+condition = ~((df[numeric_features] < (Q1 - 1.5 * IQR)) | (df[numeric_features] > (Q3 + 1.5 * IQR))).any(axis=1)
+df_filtered_numeric = df.loc[condition, numeric_features]
+ 
+# Menggabungkan kembali dengan kolom kategorikal
+categorical_features = df.select_dtypes(include=['object']).columns
+df = pd.concat([df_filtered_numeric, df.loc[condition, categorical_features]], axis=1)
+
+
+
+"""
+Menangani Duplikasi Data
+Bagaimana sampai di sini apakah Anda menikmati petualangan ini? Jika iya, mari kita lanjutkan agar Anda tidak “setengah matang” menjadi seorang machine learning engineer.
+
+Pada tahap ini, Anda perlu melakukan pemeriksaan kepada data yang sudah melewati tahapan-tahapan sebelumnya. Proses tersebut dapat Anda lakukan dengan menggunakan kode berikut.
+
+"""
+
+duplicates = df.duplicated()
+
+print("Baris Duplikat")
+print(df[duplicates])
+
+df = df.drop_duplicates()
+
+print("DataFreme setelah menghapus duplikat:")
+print(df)
+
+"""
+Mengonversi Tipe Data
+Tahukah Anda bahwa model machine learning tidak bisa langsung menerima input kategorikal? Hal ini karena mereka bergantung pada operasi matematika yang memerlukan input numerik. 
+
+Sebagian besar algoritma machine learning didasarkan pada operasi matematika yang melibatkan perhitungan jarak, gradien, atau distribusi data. Misalnya, regresi linier menghitung persamaan garis menggunakan koefisien yang diterapkan pada fitur numerik. Jika data inputan berupa kategori (seperti "merah," "biru," "hijau"), tidak ada cara langsung untuk memasukkan nilai kategori tersebut ke dalam perhitungan matematika.
+
+Di lain sisi, kategori seperti "merah," "biru," dan "hijau" tidak memiliki urutan atau nilai numerik inheren yang dapat dimengerti oleh model. Jika kategori diberi label numerik (misalnya, "merah" = 1, "biru" = 2, "hijau" = 3), model dapat salah menganggap bahwa ada hubungan matematis di antara kategori tersebut, seperti "biru" menjadi dua kali "merah" yang menghasilkan kesalahan persepsi sehingga mengakibatkan model tidak berjalan sesuai dengan harapan.
+
+Banyak algoritma, terutama yang berbasis jarak (seperti KNN), memerlukan cara untuk mengukur jarak antar titik data. Oleh karena itu jika data bertipe kategori menyebabkan model tidak dapat mengukur jarak, misalnya, tidak ada jarak matematis yang berarti antara "merah" dan "biru."
+
+Untuk mengatasi masalah ini, data kategorikal biasanya diubah menjadi bentuk numerik yang dapat dipahami oleh model yang biasa disebut encoding. Berikut beberapa contoh umum hal yang bisa kita lakukan untuk mengatasi permasalahan ini.
+
+"""
+
+# One-Hot Encoding: mengubah setiap kategori menjadi kolom biner terpisah dengan nilai 0 atau 1 (bisa juga True atau False).
+
+# Ordinal Encoding: mengonversi kategori yang memiliki urutan menjadi nilai numerik yang mencerminkan urutan tersebut.
