@@ -10,6 +10,7 @@ Karena pada tahapan data cleaning dan transformation Anda telah melakukan analis
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt 
+import seaborn as sns
 
 test = pd.read_csv("3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/test.csv")
 
@@ -70,7 +71,7 @@ n_cols = 4 # Jumlah kolom yang inginkan ditampilkan
 n_rows = -(-num_vars // n_cols)  # Menghitung jumlah baris yang diperlukan
 
 # Membuat subplot
-fig, exes = plt.subplots(n_rows, n_cols, figsize=(20, n_rows * 4))
+fig, exes = plt.subplots(n_rows, n_cols, figsize=(10, n_rows * 4))
 
 # flatten exes array untuk iterasi yang lebih mudah
 axes = exes.flatten()
@@ -87,5 +88,23 @@ for j in range(i + 1, len(axes)):
     fig.delaxes(axes[j])
 
 # Menyesuikan layout agar lebih rapi
+# plt.tight_layout()
+# plt.show() 
+
+"""
+Selanjutnya, mari kita visualisasikan distribusi beberapa kolom serta melihat korelasi antara variabel numerik. 
+
+"""
+
+# Visualisasi distribusi beberapa kolom
+# Visualisasi distribusi data untuk beberapa kolom
+columns_to_plot = ['OverallQual', 'YearBuilt', 'LotArea', 'SaleType', 'SaleCondition']
+ 
+plt.figure(figsize=(15, 10))
+for i, column in enumerate(columns_to_plot, 1):
+    plt.subplot(2, 3, i)
+    sns.histplot(df_lencoder[column], kde=True, bins=30)
+    plt.title(f'Distribution of {column}')
+ 
 plt.tight_layout()
 plt.show()
