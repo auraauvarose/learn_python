@@ -108,3 +108,41 @@ for i, column in enumerate(columns_to_plot, 1):
  
 plt.tight_layout()
 plt.show()
+
+"""
+Berikutnya, kita perlu melakukan analisis korelasi dengan membuat matriks korelasi. Matriks korelasi menunjukkan beberapa hubungan penting antara variabel-variabel yang ada dalam dataset. Biasanya warna yang lebih terang atau lebih gelap mengindikasikan korelasi yang lebih kuat (positif atau negatif). Untuk melakukan analisis korelasi Anda dapat menggunakan kode berikut sebagai panduan awal.
+
+"""
+
+# Visualisasi korelasi antar variabel numerik
+plt.figure(figsize=(12, 10))
+correlation_matrix = df_lencoder.corr()
+ 
+sns.heatmap(correlation_matrix, annot=False, cmap='coolwarm', vmin=-1, vmax=1)
+plt.title('Correlation Matrix')
+plt.show()
+
+
+"""
+Pada tahapan ini, sebetulnya Anda bisa saja mengurangi fitur atau variabel yang tidak memiliki hubungan linier dengan variabel target (pada kasus ini SalePrice). Untuk mempermudah proses analisis tersebut, mari kita buat matriks korelasi hanya terhadap variabel atau fitur SalePrice saja sebagai variabel dependen pada studi kasus ini.
+ 
+"""
+
+# Menghitung korelasi antara variabel target dan semua variabel lainnya
+target_corr = df_lencoder.corr()['SalePrice']
+ 
+# (Opsional) Mengurutkan hasil korelasi berdasarkan korelasi
+target_corr_sorted = target_corr.abs().sort_values(ascending=False)
+ 
+plt.figure(figsize=(10, 6))
+target_corr_sorted.plot(kind='bar')
+plt.title(f'Correlation with SalePrice')
+plt.xlabel('Variables')
+plt.ylabel('Correlation Coefficient')
+plt.show()
+
+
+"""
+Kesimpulannya exploratory data analysis (EDA) dan explanatory data analysis (ExDA) adalah dua langkah penting dalam analisis data yang saling melengkapi. EDA bertujuan untuk memahami pola, anomali, dan struktur dalam data secara mendalam melalui visualisasi dan teknik statistik tanpa asumsi awal, sehingga membuka wawasan baru dan membantu membentuk hipotesis. Sebaliknya, ExDA fokus pada komunikasi temuan yang jelas dan meyakinkan, menggunakan visualisasi dan narasi yang efektif untuk menjelaskan dan mendukung argumen berdasarkan hasil analisis. Keduanya esensial untuk menghasilkan analisis yang valid dan dapat dimengerti oleh berbagai pemangku kepentingan (stakeholder).
+
+"""
