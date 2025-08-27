@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fefd349f-738c-4a2d-b148-f177123da63e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/1.pengenalan.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/1.pengenalan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/10.style_guide_pada_python/kalkulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/10.style_guide_pada_python/kalkulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/10.style_guide_pada_python/style_guide_prinsip.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/10.style_guide_pada_python/style_guide_prinsip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/10.style_guide_pada_python/style_guide_statement_gabungan.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/10.style_guide_pada_python/style_guide_statement_gabungan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/11.unit_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/11.unit_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_file_management/library_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_file_management/library_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_file_management/library_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_file_management/library_os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_file_management/library_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_file_management/library_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_machine_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_matematika.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_matematika.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_matplotlib.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_matplotlib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_numby.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_numby.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_pengolahan_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_pengolahan_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_seaborn.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_pengolahan-data/library_seaborn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_text_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_text_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_web_development.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_web_development.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_web_scraping/library_beautifulsoup.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_web_scraping/library_beautifulsoup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_web_scraping/library_urllib.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/library_web_scraping/library_urllib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/mengenal_library.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/12.library/mengenal_library.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/2.berinteraksi_dengan_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/2.berinteraksi_dengan_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/3.ekspresi.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/3.ekspresi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/4.aksi_sekuensial.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/4.aksi_sekuensial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/5.control_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/5.control_flow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/6.array_dan_pemrosesannya.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/6.array_dan_pemrosesannya.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/7.matriks.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/7.matriks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/8.subprogram.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/8.subprogram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/9.object_oriented_programming_(OOP).py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/9.object_oriented_programming_(OOP).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/subprogram_modul.py" beforeDir="false" afterPath="$PROJECT_DIR$/1. Memulai Pemrograman dengan Python/subprogram_modul.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/1.Hi_Machine_Learning/1. kemampuan_utama_dalam_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/1.Hi_Machine_Learning/1. kemampuan_utama_dalam_machine_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/1.pendahuluan.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/1.pendahuluan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/10.Latihan_Exploratory_dan_Explanatory_Data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/10.Latihan_Exploratory_dan_Explanatory_Data_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/11.data_splitting.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/11.data_splitting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/12.latihan_data_splitting.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/12.latihan_data_splitting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/13.membangun_model_modeling.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/13.membangun_model_modeling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/14.monitoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/14.monitoring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/2.tools_atau_library_machine_learning.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/2.tools_atau_library_machine_learning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/3.data_collecting.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/3.data_collecting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/4.mengumpulkan_data_dari_sumber_terbuka.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/4.mengumpulkan_data_dari_sumber_terbuka.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/5.data_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/5.data_loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/6.latihan_data_loading.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/6.latihan_data_loading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/7.data_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/7.data_cleaning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/8.laihan_data_cleaning_workflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/8.laihan_data_cleaning_workflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/9.Exploratory_dan_Explanatory_Data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/9.Exploratory_dan_Explanatory_Data_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/3. Belajar Machine Learning untuk Pemula/2.machine_learning workflow/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kalkulator python/kalkulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/kalkulator python/kalkulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/machine.py" beforeDir="false" afterPath="$PROJECT_DIR$/machine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/predict_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict_test.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="30yt5n5y82doGGyUDULA9SvN4YY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fefd349f-738c-4a2d-b148-f177123da63e" name="Changes" comment="" />
+      <created>1754611459473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754611459473</updated>
+      <workItem from="1754611460717" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
