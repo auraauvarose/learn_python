@@ -49,8 +49,5 @@ tombolTitik.grid(row=4, column=1)
 tombolSamaDengan.grid(row=4, column=2)
 tombolTambah.grid(row=4, column=3)
 
-
-
-
 # Menjalankan program
 jendela.mainloop()
